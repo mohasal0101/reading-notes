@@ -7,4 +7,5 @@
 ## Code 301 - Intermediate Software Development
 ## Code 401 - Advanced Software Development
 
-**[Class01](Class01.md)**
+**[Class01](Class01.md)**,
+**[Class02](Class02.md)**
