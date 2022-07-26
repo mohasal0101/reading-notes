@@ -1,4 +1,4 @@
-## [React Docs - lists and keys] (https://reactjs.org/docs/lists-and-keys.html)
+## [React Docs - lists and keys](https://reactjs.org/docs/lists-and-keys.html)
 
 1. takes an array of numbers and double their values.
 
