@@ -24,25 +24,25 @@ Converting NodeList to an array.
 
 3. two methods :-
 
-const cars = ['🚗', '🚙'];
-const trucks = ['🚚', '🚛'];
+const cars = ['🚗', '🚙'];<br>
+const trucks = ['🚚', '🚛'];<br>
 
 // Method 1: Concat
-const combined1 = [].concat(cars, trucks);
+const combined1 = [].concat(cars, trucks);<br>
 
-// Method 2: Spread
-const combined2 = [...cars, ...trucks];
+// Method 2: Spread<br>
+const combined2 = [...cars, ...trucks];<br>
 
 
 4.
 
-const array = ['🦊'];
-// pushing item into the array :
-array.push('🐴');
-array.splice(array.length, 0, '🐴');
-array[array.length] = '🐴';
+const array = ['🦊'];<br>
+// pushing item into the array :<br>
+array.push('🐴');<br>
+array.splice(array.length, 0, '🐴');<br>
+array[array.length] = '🐴';<br>
 
-// Result
+// Result<br>
 // ['🦊', '🐴']
 
 5. 
