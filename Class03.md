@@ -27,8 +27,8 @@ Converting NodeList to an array.
 const cars = ['🚗', '🚙'];<br>
 const trucks = ['🚚', '🚛'];<br>
 
-// Method 1: Concat
-const combined1 = [].concat(cars, trucks);<br>
+// Method 1: Concat<br>
+const combined1 = [ ].concat(cars, trucks);<br>
 
 // Method 2: Spread<br>
 const combined2 = [...cars, ...trucks];<br>
