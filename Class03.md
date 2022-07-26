@@ -1,45 +1,58 @@
-# Reading
+## [React Docs - lists and keys] (https://reactjs.org/docs/lists-and-keys.html)
 
-### React Docs - lists and keys
+1. takes an array of numbers and double their values.
 
-1- It returns a new array and elements of arrays are result of callback function.
+2. The map() method is the most commonly used function to iterate over an array of data in JSX.
 
-2-Using the map() Method
+3. Id
+
+4. “key” is a special string attribute you need to include when creating lists of elements in React. Keys are used to React to identify which items in the list are changed, updated, or deleted.
 
 
-3- Key/value
 
-4-identify which items have changed, are added, or are removed.
 
-### The Spread Operator
+## [The Spread Operator](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab)
 
-1- new addition to the set of operators
+1. The spread operator allows us to quickly copy all or part of an existing array or object into another array or object
 
-2-
+2. 
 
-Copying an array.
-Concatenating or combining arrays.
+to compute new state without mutating state
+to make shallow copies of JS objects.
 Using Math functions.
-Using an array as arguments.
+Converting NodeList to an array.
 
-3-
+3. two methods :-
 
-const arr1 = [1,2,3]
-const arr2 = [4,5,6]
-const arr3 = [...arr1, ...arr2] //arr3 ==> [1,2,3,4,5,6]
+const cars = ['🚗', '🚙'];
+const trucks = ['🚚', '🚛'];
 
-4- arr.push(5)
+// Method 1: Concat
+const combined1 = [].concat(cars, trucks);
 
-5-
+// Method 2: Spread
+const combined2 = [...cars, ...trucks];
+
+
+4.
+
+const array = ['🦊'];
+// pushing item into the array :
+array.push('🐴');
+array.splice(array.length, 0, '🐴');
+array[array.length] = '🐴';
+
+// Result
+// ['🦊', '🐴']
+
+5. 
+
+let person = { firstName: 'John',
+
+lastName: 'Doe',};
+
+let job = { jobTitle: 'JavaScript Developer',
+
+location: 'USA' };
 
 let employee = { ...person, ...job };
-
-# Videos
-
-1- Define the function in the parent component.
-
-2-increse the next node on the same level.
-
-3- define then pass then invoke, etc.
-
-4-use props.
