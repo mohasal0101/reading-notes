@@ -12,6 +12,7 @@
 | 2 |    [Reading03](https://github.com/mohasal0101/reading-notes/blob/main/Class03.md)   |  
 | 3 | [Reading04](https://github.com/mohasal0101/04/blob/main/README.md) |    
 | 4 | [Reading05](https://github.com/mohasal0101/05) |    
+| 5 | [Reading06](https://github.com/mohasal0101/06/blob/main/README.md) |
 ## Code 401 - Advanced Software Development
 
 
